@@ -12,7 +12,7 @@ RUN pip install -r requirements.txt
 RUN rm requirements.txt
 
 # Add application file
-ADD app/model/rfc_model.pkl app/model/.
+ADD app/model/*.pkl app/model/.
 ADD app/main.py app/.
 
 # Expose port where your application will be running
