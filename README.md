@@ -7,12 +7,12 @@ Learn to containerize a simple ML application that:
 
 ## Project Structure
 ```
-basic-ml-docker/
+ml-project-docker/
 ├── Dockerfile
 ├── requirements.txt
 ├── app/
 │   ├
-│   ├── ml_gradio_deploy.py
+│   ├── main.py
 │   └── model/
 │       └── .gitkeep
 └── README.md
