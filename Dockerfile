@@ -2,8 +2,8 @@
 FROM python:3.11.11
 
 # Add requirements.txt file
-ADD requirements.txt
-ADD *.pkl .
+ADD requirements.txt .
+ADD model/ . 
 
 # Update pip
 RUN pip install --upgrade pip
