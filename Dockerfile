@@ -9,14 +9,14 @@ RUN pip install --upgrade pip
 
 # Install dependencies
 RUN pip install -r requirements.txt
-
+RUN rm requirements.txt
 
 # Add application file
-ADD model/ model/rfc_model.pkl .
-ADD ml_gradio_deploy.py .
+ADD app/model/rfc_model.pkl app/model/.
+ADD app/main.py .
 
 # Expose port where your application will be running
 EXPOSE 7860
 
 # Start application
-CMD ["python", "ml_gradio_deploy.py"]
+CMD ["python", "app/main.py"]
