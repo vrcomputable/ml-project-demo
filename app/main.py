@@ -99,7 +99,7 @@ intFace = grd.Interface(fn=get_output_prediction,
                         flagging_mode = "never"
                       )
 
-intFace.launch()
+intFace.launch(share=True, server_nmae="0.0.0.0", port=7860)
 
 #intFace.close()
 
