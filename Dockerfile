@@ -2,7 +2,7 @@
 FROM python:3.11.11
 
 # Add requirements.txt file
-ADD requirements.txt .
+COPY requirements.txt .
 
 # Update pip
 RUN pip install --upgrade pip
@@ -12,8 +12,8 @@ RUN pip install -r requirements.txt
 RUN rm requirements.txt
 
 # Add application file
-ADD app/model/*.pkl app/model/.
-ADD app/main.py app/.
+COPY app/model/*.pkl app/model/.
+COPY app/main.py app/.
 
 # Expose port where your application will be running
 EXPOSE 7860

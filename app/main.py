@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 """
 
-# ml_gradio_deploy.py
 # Gradio Visualisation for ML Model Deployment
 """
 
