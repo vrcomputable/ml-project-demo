@@ -20,7 +20,7 @@ ml-project-docker/
 
 ## Tasks
 1. Install requirements using pip
-2. Write code in ml_gradio_deploy.py file to develop a UI using Gradio
+2. Write code in main.py file to develop a UI using Gradio
 3. Create a Docker image for this application
 4. Start a Docker container and make predictions
 
