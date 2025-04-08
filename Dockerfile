@@ -18,4 +18,4 @@ ADD ml_gradio_deploy.py .
 EXPOSE 7860
 
 # Start application
-CMD ["python", "main.py"]
+CMD ["python", "ml_gradio_deploy.py"]
