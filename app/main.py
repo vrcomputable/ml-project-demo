@@ -11,7 +11,7 @@ import gradio as grd
 
 """Load Model"""
 
-clf = joblib.load(filename='./model/rfc_model.pkl')
+clf = joblib.load(filename='app/model/rfc_model.pkl')
 print(clf.get_params())
 
 """Gradio UI Settings - Input Components"""
