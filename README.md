@@ -7,7 +7,7 @@ Learn to containerize a simple ML application that:
 
 ## Project Structure
 ```
-ml-project-docker/
+mlops-docker/
 ├── Dockerfile
 ├── requirements.txt
 ├── app/
