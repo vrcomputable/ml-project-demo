@@ -1,4 +1,4 @@
-# Basic Docker ML Model Deployment Exercise
+# Basic Docker ML Model Deployment
 
 ## Overview
 Learn to containerize a simple ML application that:
